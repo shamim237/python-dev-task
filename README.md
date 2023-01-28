@@ -12,6 +12,8 @@ The task has been done in two methods-
 - used [nlpaug](https://github.com/makcedward/nlpaug) library
 #### Summarization Tools:
 - used [sumy](https://miso-belica.github.io/sumy/) library
+#### System Requirements:
+- you will find it in the _requirements.txt_ file
 
 ## How to test or run this?
 - just open this link and follow the instructions: _**https://shamim237-python-dev-task-app-3n18pu.streamlit.app/**_
@@ -25,6 +27,8 @@ The task has been done in two methods-
 - used **"ramsrigouthamg/t5-large-paraphraser-diverse-high-quality"** pre-trained model from HuggingFace
 #### Summarization Tools:
 - used **/"google/pegasus-cnn_dailymail"/** pre-trained model from HuggingFace
+#### System Requirements:
+- you will find it in the _Python_Dev_Task.ipynb_ notebook or in the below link.
 
 ## How to test or run this?
 - Just open the **"Python_Dev_Task.ipynb"** file in Colab _or_ open this link: **_https://colab.research.google.com/drive/1wwaj0TobsnzQL5jMVsYrF5z6rc1944tE?usp=sharing_**
