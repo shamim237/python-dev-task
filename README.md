@@ -14,7 +14,7 @@ The task has been done in two methods-
 - used [sumy](https://miso-belica.github.io/sumy/) library
 
 ## How to test or run this?
-- just open this link and follow the instructions: **https://shamim237-python-dev-task-app-3n18pu.streamlit.app/**
+- just open this link and follow the instructions: _**https://shamim237-python-dev-task-app-3n18pu.streamlit.app/**_
 
 # Method-2
 ## Using pre-trained transformers model
@@ -27,6 +27,6 @@ The task has been done in two methods-
 - used **/"google/pegasus-cnn_dailymail"/** pre-trained model from HuggingFace
 
 ## How to test or run this?
-- Just open the **"Python_Dev_Task.ipynb"** file in Colab _or_ open this link: _https://colab.research.google.com/drive/1wwaj0TobsnzQL5jMVsYrF5z6rc1944tE?usp=sharing_
+- Just open the **"Python_Dev_Task.ipynb"** file in Colab _or_ open this link: **_https://colab.research.google.com/drive/1wwaj0TobsnzQL5jMVsYrF5z6rc1944tE?usp=sharing_**
 - Run all the cell 
 - The summarization output will show up in the last cell of the notebook.
