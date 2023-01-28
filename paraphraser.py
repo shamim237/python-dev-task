@@ -4,7 +4,7 @@ import nlpaug.augmenter.word as naw
 
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True, ttl=48*3600)
 def load_model():
     aug = naw.ContextualWordEmbsAug(
         model_path='bert-base-uncased', action="insert")
@@ -25,5 +25,3 @@ def parphrase(passage):
     pas = " ".join(sen)
     para_text = aug.augment(pas)
     return para_text
-
-
