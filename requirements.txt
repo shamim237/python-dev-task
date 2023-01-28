@@ -1,0 +1,9 @@
+nlpaug
+nltk
+selenium
+sentencepiece
+streamlit
+sumy
+torch
+transformers
+webdriver-manager
