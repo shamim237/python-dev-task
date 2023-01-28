@@ -7,7 +7,7 @@ app = MultiApp()
 st.title("Python Dev Task @SkyRanko")
 st.write("==================_Completed by_ **Shamim Mahbub**==================")
 st.markdown("This app provides three services - :red[Scraping], :orange[Paraphrasing] and :blue[Summarizing]")
-# Enter this link- https://www.amazon.com/dp/B09B9TB61G!
+st.caption("Note: _After scraping data from Amazon, the data has been paraphrased using a model and then Summarization has been performed on the paraphrased data._")
 
 # Add all your application here
 app.add_app("Scraper", scraperrApp.app)
