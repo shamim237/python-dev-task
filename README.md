@@ -1,8 +1,8 @@
 # python-dev-task-summarization
 
-The task has been done in two ways-
-- using traditional Python libraries (like NLTK,Sumy)
-- using pre-trained transformers model
+The task has been done in two methods-
+- **using traditional Python libraries (like NLTK,Sumy)**
+- **using pre-trained transformers model**
 
 # Method 1
 ## using traditional Python libraries
