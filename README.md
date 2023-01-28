@@ -1,10 +1,22 @@
 # python-dev-task-summarization
 
 The task has been done in two ways-
-- Using pre-trained transformers model
-- Using traditional Python libraries (without ML models)
+- using traditional Python libraries (like NLTK,Sumy)
+- using pre-trained transformers model
 
+# Method 1
+## using traditional Python libraries
+#### Web Scraping Tools:
+- Selenium
+#### Paraphrasing Tools:
+- used [nlpaug](https://github.com/makcedward/nlpaug) library
+#### Summarization Tools:
+- used [sumy](https://miso-belica.github.io/sumy/) library
 
+## How to test or run this?
+- just open this link and follow the instructions: **https://shamim237-python-dev-task-app-3n18pu.streamlit.app/**
+
+# Method-2
 ## Using pre-trained transformers model
 #### Web Scraping Tools: 
 - ScrapperAPI
