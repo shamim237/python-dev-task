@@ -2,7 +2,8 @@ import re
 import streamlit as st
 import nlpaug.augmenter.word as naw
 
-
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 @st.cache(allow_output_mutation=True, ttl=48*3600)
 def load_model():
