@@ -16,7 +16,7 @@ The task has been done in two methods-
 - you will find it in the _requirements.txt_ file
 
 ## How to test or run this?
-- just open this link and follow the instructions: _**https://shamim237-python-dev-task-app-3n18pu.streamlit.app/**_
+- just open this link and follow the instructions: _**https://shamim237-python-dev-task-app-r9qtpt.streamlit.app/**_
 
 # Method-2
 ## Using pre-trained transformers model
