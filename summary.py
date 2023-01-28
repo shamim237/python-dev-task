@@ -1,7 +1,14 @@
+import nltk
+import streamlit as st
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
+@st.cache(allow_output_mutation=True, ttl=48*3600)
+def dwnld_lib():
+    nltk.download('punkt')
+    
+dwnld_lib()
 
 def text_summary(text):
     para = " ".join(text)
@@ -15,4 +22,3 @@ def text_summary(text):
         summy =  str(sentence).capitalize()
         summ.append(summy)
     return summ
-
