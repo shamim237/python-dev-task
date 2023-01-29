@@ -17,6 +17,8 @@ The task has been done in two methods-
 
 ## How to test or run this?
 - just open this link and follow the instructions: _**https://shamim237-python-dev-task-app-r9qtpt.streamlit.app/**_
+- if you would like to **run these code on your system**, then you have to make some changes, as these codes are meant to be running on streamlit app.
+- **To run these code on your system**, open this link and follow the given instructions: _**https://github.com/shamim237/TextSummarization**_
 
 # Method-2
 ## Using pre-trained transformers model
